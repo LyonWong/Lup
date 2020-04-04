@@ -1,0 +1,49 @@
+@import "clare";
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+button {
+    cursor: pointer;
+    border: 0;
+    &:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.flex-row {
+    @extend .flex-center;
+}
+.flex-col {
+    @extend .flex-center;
+    flex-direction: column;
+}
+.flex-beteen {
+    @extend .flex-center;
+    justify-content: space-between;
+}
+.flex-grow {
+    flex-grow: 1;
+}
+
+.align-center {
+    text-align: center;
+}
+.hint {
+    font-size: 80%;
+}
+.hint-error {
+    color: indianred;
+}

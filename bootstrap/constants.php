@@ -1,0 +1,5 @@
+<?php
+
+const SECONDS_MINUTE = 60;
+const SECONDS_HOUR = 3600;
+const SECONDS_DAY = 86400;

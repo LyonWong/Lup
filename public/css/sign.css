@@ -1,0 +1,78 @@
+html {
+  background: #eee;
+}
+
+.box {
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.box input,
+.box button {
+  font-size: 20px;
+}
+
+.box form {
+  margin: 0;
+}
+
+.box-head {
+  font-size: 24px;
+  padding: 15px 10px 5px 10px;
+}
+
+.box-body {
+  padding: 10px;
+}
+
+.box-foot {
+  padding: 5px;
+}
+
+.box-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px;
+}
+
+.box-row label {
+  display: block;
+}
+
+.box-row label + input {
+  margin-left: 10px;
+  padding: 2px 5px;
+}
+
+.box-row label + .input {
+  margin-left: 10px;
+}
+
+.box-table th {
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+.box-table td {
+  padding: 5px 10px;
+}
+
+.a-sign-vice {
+  font-size: 80%;
+  color: gray;
+}
+
+.btn-sign-primary {
+  padding: 5px 30px;
+  background: #3490dc;
+  color: #fff;
+}
+
+form label {
+  width: 3em;
+  text-align: left;
+}
+

@@ -1,0 +1,9 @@
+{
+    "test": "测试",
+    "account": "账号",
+    "password": "密码",
+    "sign-in": "登录",
+    "next": "下一步",
+    "forget password": "忘记密码",
+    "Account or password error.": "账号或密码错误"
+}
